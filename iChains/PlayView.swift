@@ -242,7 +242,7 @@ class PlayView {
                 continue
             }
 
-            for i in 0..<ballsCount {
+            for i in 0...ballsCount {
                 if i == idx {
                     continue
                 }
